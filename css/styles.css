@@ -13,8 +13,14 @@
 
 .tableauPlaceholder{
 
-height: 800px;
-width: 1200px;
+
+    width: 90vw; /* 90% of the viewport width */
+    height: 60vh; /* 60% of the viewport height */
+    max-width: 1200px; /* Limit the width for large screens */
+    max-height: 800px; /* Limit the height for large screens */
+    margin: auto; /* Center the container */
+
+
 
 
 }
